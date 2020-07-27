@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    color: rgb(85, 84, 84);
+}
+
+button {
+    width: 50vw;
+}
+
+.navbar {
+    height: 120px;
+    padding: 80px;
+}
+
+.space{
+    padding: 100px;
+}
+
+.image {
+    background-image: url("../Assets/Images/Volunteers-at-food-charity.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 80vh;
+}
+
+
+
+
+
+@media (min-width: 1200px) and (orientation: landscape) {
+    button {
+        width: 10vw;
+    }
+}
